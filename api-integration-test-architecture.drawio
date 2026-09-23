@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="5">
   <diagram name="Architecture" id="Architecture">
-    <mxGraphModel dx="1884" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1380" math="0" shadow="0">
+    <mxGraphModel dx="1245" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1380" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="arc2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=15;fontStyle=1;fontStyle=0;fontColor=#555555;" value="Project prj-a with 4 APIs. api-crew is shown in full; every other API has exactly the same structure." vertex="1">
           <mxGeometry height="26" width="1400" x="40" y="62" as="geometry" />
         </mxCell>
-        <mxCell id="arc3" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;arcSize=3;startSize=44;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;fontStyle=1;fontSize=16;strokeWidth=2;" value="projects/prj-a/" vertex="1">
+        <mxCell id="arc3" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;arcSize=3;startSize=44;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;fontStyle=1;fontSize=16;strokeWidth=2;" value="projects/prj-A/" vertex="1">
           <mxGeometry height="657" width="300" x="40" y="240" as="geometry" />
         </mxCell>
         <mxCell id="arc4" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=none;fillColor=none;fontColor=#555555;fontSize=12;align=left;" value="&lt;i&gt;Written by testers. One folder per API, identical skeleton.&lt;/i&gt;" vertex="1">
@@ -19,37 +19,34 @@
         <mxCell id="arc5" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 project.config.ts" vertex="1">
           <mxGeometry height="26" width="276" x="12" y="104" as="geometry" />
         </mxCell>
-        <mxCell id="arc6" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=6;fontSize=12;" value="📁 &lt;b&gt;api-crew/&lt;/b&gt;" vertex="1">
-          <mxGeometry height="26" width="276" x="12" y="134" as="geometry" />
-        </mxCell>
         <mxCell id="arc7" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=6;fontSize=12;" value="📁 &lt;b&gt;endpoints/&lt;/b&gt;" vertex="1">
           <mxGeometry height="26" width="258" x="30" y="164" as="geometry" />
         </mxCell>
-        <mxCell id="arc8" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 validLicenses.ts" vertex="1">
+        <mxCell id="arc8" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄&amp;nbsp;&lt;b&gt;api-crew-endpoints&lt;/b&gt;.ts" vertex="1">
           <mxGeometry height="26" width="240" x="48" y="194" as="geometry" />
         </mxCell>
-        <mxCell id="arc9" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 licensesByDateRange.ts" vertex="1">
+        <mxCell id="arc9" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 &lt;b&gt;api-flights-endpoints&lt;/b&gt;.ts" vertex="1">
           <mxGeometry height="26" width="240" x="48" y="224" as="geometry" />
         </mxCell>
-        <mxCell id="arc10" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 index.ts" vertex="1">
+        <mxCell id="arc10" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 &lt;b&gt;api-c-endpoints&lt;/b&gt;.ts" vertex="1">
           <mxGeometry height="26" width="240" x="48" y="254" as="geometry" />
         </mxCell>
         <mxCell id="arc11" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=6;fontSize=12;" value="📁 &lt;b&gt;testdata/&lt;/b&gt;" vertex="1">
           <mxGeometry height="26" width="258" x="30" y="284" as="geometry" />
         </mxCell>
-        <mxCell id="arc12" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 validLicenses.json" vertex="1">
+        <mxCell id="arc12" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 &lt;b&gt;api-crew-endpoints&lt;/b&gt;.ts" vertex="1">
           <mxGeometry height="26" width="240" x="48" y="314" as="geometry" />
         </mxCell>
-        <mxCell id="arc13" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 licensesByDateRange.json" vertex="1">
+        <mxCell id="arc13" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 &lt;b&gt;api-flights-endpoints&lt;/b&gt;.ts" vertex="1">
           <mxGeometry height="26" width="240" x="48" y="344" as="geometry" />
         </mxCell>
         <mxCell id="arc14" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=6;fontSize=12;" value="📁 &lt;b&gt;schemas/&lt;/b&gt;" vertex="1">
           <mxGeometry height="26" width="258" x="30" y="374" as="geometry" />
         </mxCell>
-        <mxCell id="arc15" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 validLicenses.schema.json" vertex="1">
+        <mxCell id="arc15" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 &lt;b&gt;api-crew&lt;/b&gt;.schema.json" vertex="1">
           <mxGeometry height="26" width="240" x="48" y="404" as="geometry" />
         </mxCell>
-        <mxCell id="arc16" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 licensesByDateRange.schema.json" vertex="1">
+        <mxCell id="arc16" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 api-flights.schema.json" vertex="1">
           <mxGeometry height="26" width="240" x="48" y="434" as="geometry" />
         </mxCell>
         <mxCell id="arc17" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=6;fontSize=12;" value="📁 &lt;b&gt;tests/&lt;/b&gt;" vertex="1">
@@ -60,15 +57,6 @@
         </mxCell>
         <mxCell id="arc19" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 api-crew.regression.spec.ts" vertex="1">
           <mxGeometry height="26" width="240" x="48" y="524" as="geometry" />
-        </mxCell>
-        <mxCell id="arc20" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=6;fontSize=12;" value="📁 &lt;b&gt;api-b/  same structure, 3 endpoints&lt;/b&gt;" vertex="1">
-          <mxGeometry height="26" width="276" x="12" y="554" as="geometry" />
-        </mxCell>
-        <mxCell id="arc21" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=6;fontSize=12;" value="📁 &lt;b&gt;api-c/  same structure, 2 endpoints&lt;/b&gt;" vertex="1">
-          <mxGeometry height="26" width="276" x="12" y="584" as="geometry" />
-        </mxCell>
-        <mxCell id="arc22" parent="arc3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=6;fontSize=12;" value="📁 &lt;b&gt;api-d/  same structure, 1 endpoint&lt;/b&gt;" vertex="1">
-          <mxGeometry height="26" width="276" x="12" y="614" as="geometry" />
         </mxCell>
         <mxCell id="arc23" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;arcSize=3;startSize=44;fillColor=#ffe6cc;strokeColor=#d79b00;swimlaneFillColor=#ffffff;fontStyle=1;fontSize=16;strokeWidth=2;" value="baselines/" vertex="1">
           <mxGeometry height="507" width="300" x="356" y="240" as="geometry" />
@@ -286,6 +274,9 @@
         <mxCell id="arc94" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;align=left;spacingLeft=12;verticalAlign=top;spacingTop=8;" value="&lt;b style=&#39;font-size:15px&#39;&gt;Key design decisions&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:12px&#39;&gt;1. Every API has the same skeleton. A new API is a copy of an existing API folder.&lt;br&gt;2. Testers write only in &lt;b&gt;projects/&lt;/b&gt;; the framework writes only in &lt;b&gt;baselines/&lt;/b&gt;.&lt;br&gt;3. Endpoint definitions are TypeScript: mistakes fail at compile time, not during a run.&lt;br&gt;4. Project and API names come from folder names, so they can never mismatch.&lt;br&gt;5. The framework has its own unit tests; every pull request runs typecheck, lint and tests.&lt;br&gt;6. Adding a project, API, endpoint or test case never requires a change in src/.&lt;/font&gt;" vertex="1">
           <mxGeometry height="200" width="616" x="40" y="980" as="geometry" />
         </mxCell>
+        <mxCell id="arc95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;align=left;spacingLeft=12;verticalAlign=top;spacingTop=8;" value="&lt;b style=&#39;font-size:15px&#39;&gt;How to run&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:12px&#39;&gt;Everything: npx playwright test&lt;br&gt;One project: npx playwright test projects/prj-a&lt;br&gt;One API: npx playwright test projects/prj-a/api-crew&lt;br&gt;One mode: add --project=comparison or --project=regression&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="616" x="988" y="840" as="geometry" />
+        </mxCell>
         <mxCell id="arc96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=10;" value="&lt;b&gt;Blue:&lt;/b&gt; written by testers" vertex="1">
           <mxGeometry height="34" width="300" x="40" y="1300" as="geometry" />
         </mxCell>
@@ -297,6 +288,12 @@
         </mxCell>
         <mxCell id="arc99" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;fillColor=#f5f5f5;strokeColor=#666666;align=left;spacingLeft=10;" value="&lt;b&gt;Grey:&lt;/b&gt; tooling and configuration" vertex="1">
           <mxGeometry height="34" width="330" x="1025" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="92WBi_Z1-BxEmOR0AMx5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 api-flights.compare.spec.ts" vertex="1">
+          <mxGeometry height="26" width="240" x="90" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="92WBi_Z1-BxEmOR0AMx5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;arcSize=8;strokeColor=#cccccc;align=left;spacingLeft=6;fontSize=12;" value="📄 api-flights.regression.spec.ts" vertex="1">
+          <mxGeometry height="26" width="240" x="90" y="830" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
